@@ -5,7 +5,7 @@ body{
 }
 /*header start*/
 header{
-	padding: 10px 10px 5px;
+	padding: 10px 20px 5px;
 }
 .wrapper {
 	overflow: hidden;
@@ -15,7 +15,6 @@ header{
 	width: 25%;
 	float: left;
 }
-
 .logo_img {
 	width: 20%;
 	float: left;
@@ -27,32 +26,37 @@ header{
 .logo_title {
 	width: 70%;
 	float: left;
-	margin-left: 10px;
+	padding-left: 10px;
 }
 .logo_title h2{
+	font-size: 26px;
 	color: #4B5366;
 }
 
 .menu {
 	width: 65%;
 	float: right;
-	margin-top: 9px;
+	margin-top: 10px;
 }
 .menu ul{
     list-style-type: none;
-    float: right;
+	float: right;
 }
 .menu ul li{
     float: left;
 }
 .menu ul li a{
     display: inline-block;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 400;
     color: #646D7C;
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 0 20px;
     transition: 0.3s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
 }
 .menu ul li a:hover{
     color: #548EEF;
@@ -63,13 +67,13 @@ header{
 	background-image: url(../images/bg.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-top: 120px;
-	padding-bottom: 300px;
 }
 .banner_content{
 	background-color: rgba(0,0,0,0.5);
 	width: 20%;
 	padding:30px 35px 25px 25px;
+	margin-top: 120px;
+	margin-bottom: 300px;
 }
 .banner_content h1{
     font-weight: 400;
@@ -84,10 +88,9 @@ header{
 	color: #ffffffb5;
 }
 .banner_content button{
-	width: 125px;
+    width: 125px;
     height: 30px;
     margin-top: 20px;
-    font-family: sans-serif;
     color:#CAC0C1 ;
     background-color: #372E31;
     border: 0;
@@ -104,12 +107,12 @@ header{
 /*banner section end*/
 /*service section start*/
 .service {
-	padding-top: 65px;
-	padding-bottom: 75px;
+	margin-top: 65px;
+	margin-bottom: 75px;
 }
 
 .wrapper2 {
-	width: 80%;
+	width: 90%;
 	margin:0 auto;
 	overflow: hidden;
 }
@@ -128,17 +131,14 @@ header{
 	font-weight: 400;
 	color: #93948F;
 	text-transform: capitalize;
-	margin:0;
 }
 .single img{
 	width: 100%;
-	margin: 10px 0;
 }
 .single p{
 	font-size: 14px;
 	color: #747476;
-	margin: 0;
-	line-height: 24px;
+	line-height: 20px;
 }
 .single button{
 	text-transform: capitalize;
@@ -148,7 +148,7 @@ header{
     border-radius: 3px;
     cursor: pointer;
     padding: 5px 25px;
-    margin-top: 44px;
+    margin-top: 40px;
 }
 .single button:focus{
     outline: 0;
@@ -157,9 +157,9 @@ header{
 /*footer start*/
 footer{
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 40px;
+	margin-bottom: 40px;
 }
+
 footer p{
 	font-size: 14px;
 	color: #636466;
@@ -168,6 +168,6 @@ footer p:nth-child(2){
 	font-size: 12px;
 }
 footer p span{
-	font-weight: 600;
+	font-weight: bold;
 }
 /*footer end*/
