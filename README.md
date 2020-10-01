@@ -1,4 +1,4 @@
 # dreamhome
-complete image to html conversion
+complete image to html conversation
 
-https://subrinalisa.github.io/dreamhome/
+https://subrinalisa.github.io/dreamhome_complete/
